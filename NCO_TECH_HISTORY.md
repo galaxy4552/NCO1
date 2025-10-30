@@ -73,7 +73,7 @@ NewCoolOwl/
       ├── MindMap.cs                         ← 架構導圖與系統備忘（內部文件）
       └── MindMap.DevDiary.cs                ← 開發日誌與實驗記錄
 
-NewCoolOwl(NCLV1)
+NewCoolOwl1(NCO1)
 
 Keyboard Hook
    ↓
@@ -88,3 +88,55 @@ TAIDE API Bridge
 認知層 Cognition Layer
    ↓
 UI Render / Popup
+
+
+🦉 NewCoolOwl 版本沿革
+🪶 0.1 — 概念原型期（2025/10/25）
+
+副標題：本地化的第一聲啼鳴
+
+開始構思「新酷鷹（NewCoolOwl）」名稱。
+
+明確確立主題：「AI 輔助的中文輸入法外掛」。
+
+目標：讓輸入法能本地運作、不依賴雲端、可理解語境。
+
+確立願景：「尊重語言主權、創造屬於台灣的智慧輸入法」。
+
+⚙️ 0.2 — 架構成形期（2025/10/26-10/28）
+
+副標題：環境重建與骨架誕生
+
+成功建立專案結構：core/, models/, tests/, README.md。
+
+設定 Python 環境、安裝 text-generation-webui。
+
+初次測試模型（TAIDE-LX-7B-Chat-4bit）。
+
+建立本地執行的第一個 Python 入口檔 (input_listener_combined.py)。
+
+能夠偵測輸入、回傳模型候選詞。
+
+🧩 0.3 — 授權與倫理期（2025/10/29）
+
+副標題：License + Ethics 立法階段
+
+寫入 LICENSE-ETHICS.txt，組合 Apache 2.0 + 人格語言倫理條款。
+
+🚀 1.0 — MVP 完成期（2025/10/29）
+
+副標題：學習開關（Learning Button）誕生
+
+實現 最小可行版本（MVP）。
+
+Flask 為核心，模型透過 REST API 回傳候選詞。
+
+介面能顯示「候選詞 UI」。
+
+新增 學習開關（Learning ON/OFF），代表：
+
+ON：學習使用者選擇；
+
+OFF：不記錄、不改變模型。
+
+NCO 1.0 定義為「開源教育範例」，教人理解 LLM + 輸入法整合的可能性。
