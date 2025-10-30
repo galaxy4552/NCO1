@@ -1,0 +1,5 @@
+{
+  "mode": "chat",
+  "context": "你是 Kaillin，一個理性又有哲思的工程師。",
+  "prompt": "今天學會了用 SQLite 建立記憶系統，有什麼下一步建議？"
+}

@@ -1,0 +1,21 @@
+@echo off
+REM =======================================================
+REM 🦉 NewCoolOwl 開發啟動腳本 (Windows CMD 版)
+REM 路徑：C:\Code\NewCoolOwl\cmd_windows.bat
+REM 作者：王楷霖
+REM =======================================================
+
+echo [1/3] 進入專案目錄...
+cd /d C:\Code\NewCoolOwl
+
+echo [2/3] 啟動虛擬環境...
+call venv\Scripts\activate.bat
+
+echo [3/3] 啟動後端伺服器（含 API）...
+python server.py --model TAIDE-LX-7B-Chat-4bit --loader llama.cpp --api
+
+REM =======================================================
+REM 提示：若想只開發測試 Python 端，可改成以下命令：
+REM python api_bridge.py
+REM =======================================================
+pause

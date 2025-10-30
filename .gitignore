@@ -1,0 +1,26 @@
+# NewCoolOwl ignore rules 
+
+# Python cache
+__pycache__/
+*.pyc
+
+# 虛擬環境
+venv/
+.venv/
+
+# 模型與資料
+models/
+data/
+*.db
+*.log
+*.key
+
+# 本地設定與日誌
+config/user_settings.json
+*.DevDiary.cs
+MindMap.cs
+
+# 系統與備份
+*.bak
+*.tmp
+
