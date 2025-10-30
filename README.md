@@ -6,7 +6,7 @@
 ### 📦 專案版本
 ⚠️ 本版本為 NCO 1.0 備份（教育用開放原型）。
 之後的 NCO 版本皆為閉源開發，不會在此更新。
-[技術演進年表 (NCO_TECH_HISTORY.md)](./docs/NCO_TECH_HISTORY.md)
+[技術演進年表 (NCO_TECH_HISTORY.md)](./NCO_TECH_HISTORY.md)
 [🎬 觀看展示影片](https://youtu.be/Ce2jA4riJEU)
 
 ## 🛡️ Ethical Use Notice
